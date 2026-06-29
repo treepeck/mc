@@ -8,7 +8,7 @@ Personal Midnight Commander configuration.
 
 Content of the `macros` folder goes to `~/.local/share/mc/mcedit/macros.d`
 
-`mc.macros` goes to `~/.local.share`
+`mc.macros` goes to `~/.local/share/mc`
 
 # Syntax
 
