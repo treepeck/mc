@@ -1,0 +1,3 @@
+[editor]
+ctrl-f=ExecuteScript:0;
+ctrl-s=ExecuteScript:1;
