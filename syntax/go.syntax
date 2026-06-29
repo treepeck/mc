@@ -62,6 +62,7 @@ context default
 	keyword whole println brown
 	keyword whole append brown
 	keyword whole copy brown
+	keyword whole delete brown
 # builtin packages
 	keyword whole tar brightgreen
 	keyword whole zip brightgreen
@@ -139,14 +140,18 @@ context default
 	keyword ! brightcyan
 	keyword . brightcyan
 	keyword : brightcyan
-# FIXME, TODO, NOTE
-	keyword whole TODO  red
-	keyword whole FIXME red
-	keyword whole NOTE  yellow
 
-# comment
+# comment including TODO, FIXME, WARN, and NOTE
 context exclusive /\* \*/ brown
+	keyword TODO red
+	keyword FIXME red
+	keyword WARN yellow
+	keyword NOTE green
 context exclusive // \n brown
+	keyword TODO red
+	keyword FIXME red
+	keyword WARN yellow
+	keyword NOTE green
 
 # char, raw string, string
 context ' ' gray
