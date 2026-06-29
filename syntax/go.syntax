@@ -44,11 +44,11 @@ context default
 	keyword whole string brightgreen
 	keyword whole bool brightgreen
 	keyword whole time brightgreen
+	keyword whole iota brightgreen
 # builtin functions
 	keyword whole nil brown
 	keyword whole true brown
 	keyword whole false brown
-	keyword whole iota brown
 	keyword whole cap brown
 	keyword whole close brown
 	keyword whole closed brown
@@ -56,9 +56,12 @@ context default
 	keyword whole make brown
 	keyword whole new brown
 	keyword whole panic brown
+	keyword whole recover brown
 	keyword whole panicln brown
 	keyword whole print brown
 	keyword whole println brown
+	keyword whole append brown
+	keyword whole copy brown
 # builtin packages
 	keyword whole tar brightgreen
 	keyword whole zip brightgreen
@@ -137,9 +140,9 @@ context default
 	keyword . brightcyan
 	keyword : brightcyan
 # FIXME, TODO, NOTE
-	keyword TODO  red
-	keyword FIXME red
-	keyword NOTE  yellow
+	keyword whole TODO  red
+	keyword whole FIXME red
+	keyword whole NOTE  yellow
 
 # comment
 context exclusive /\* \*/ brown
