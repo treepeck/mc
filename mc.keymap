@@ -279,8 +279,8 @@ Top = ctrl-home; alt-lt
 Bottom = ctrl-end; alt-gt
 ScrollUp = ctrl-up
 ScrollDown = ctrl-down
-TopOnScreen = ctrl-pgup
-BottomOnScreen = ctrl-pgdn
+TopOnScreen = ctrl-shift-pgup
+BottomOnScreen = ctrl-shift-pgdn
 DeleteToWordBegin = alt-backspace
 DeleteToWordEnd = alt-d
 DeleteLine = shift-delete
@@ -384,8 +384,8 @@ SpellCheckCurrentWord = ctrl-p
 # WindowResize =
 # WindowFullscreen =
 # WindowList =
-# WindowNext =
-# WindowPrev =
+WindowNext = ctrl-pgdn
+WindowPrev = ctrl-pgup
 # ExtendedKeyMap =
 
 [viewer]
