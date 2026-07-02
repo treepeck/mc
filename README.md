@@ -13,3 +13,7 @@ Content of the `macros` folder goes to `~/.local/share/mc/mcedit/macros.d`
 # Syntax
 
 Content of the `syntax` folder goes to `/usr/share/mc/syntax`
+
+# Setup
+
+`ini` and `panels.ini` are going to `~/.config/mc`
