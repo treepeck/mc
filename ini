@@ -88,7 +88,7 @@ filepos_max_saved_entries=1024
 
 [Layout]
 output_lines=0
-left_panel_size=50
+left_panel_size=63
 top_panel_size=0
 message_visible=true
 keybar_visible=true
@@ -109,8 +109,8 @@ display_codepage=UTF-8
 source_codepage=Other_8_bit
 autodetect_codeset=
 spell_language=en
-clipboard_store=
-clipboard_paste=
+clipboard_store=xclip -i -selection clipboard
+clipboard_paste=xclip -o -selection clipboard
 
 [Colors]
 base_color=
