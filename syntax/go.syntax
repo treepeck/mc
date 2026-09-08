@@ -143,15 +143,15 @@ context default
 
 # comment including TODO, FIXME, WARN, and NOTE
 context exclusive /\* \*/ brown
-	keyword TODO red
-	keyword FIXME red
-	keyword WARN yellow
-	keyword NOTE green
+	keyword TODO brightred
+	keyword FIXME brightred
+	keyword WARN brightred
+	keyword NOTE brightred
 context exclusive // \n brown
-	keyword TODO red
-	keyword FIXME red
-	keyword WARN yellow
-	keyword NOTE green
+	keyword TODO brightred
+	keyword FIXME brightred
+	keyword WARN brightred
+	keyword NOTE brightred
 
 # char, raw string, string
 context ' ' gray
