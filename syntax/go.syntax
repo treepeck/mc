@@ -43,26 +43,11 @@ context default
 	keyword whole uintptr brightgreen
 	keyword whole string brightgreen
 	keyword whole bool brightgreen
-	keyword whole time brightgreen
 	keyword whole iota brightgreen
 # builtin functions
-	keyword whole nil brown
-	keyword whole true brown
-	keyword whole false brown
-	keyword whole cap brown
-	keyword whole close brown
-	keyword whole closed brown
-	keyword whole len brown
-	keyword whole make brown
-	keyword whole new brown
-	keyword whole panic brown
-	keyword whole recover brown
-	keyword whole panicln brown
-	keyword whole print brown
-	keyword whole println brown
-	keyword whole append brown
-	keyword whole copy brown
-	keyword whole delete brown
+	keyword whole nil brightgreen
+	keyword whole true brightgreen
+	keyword whole false brightgreen
 # special functions
 	keyword whole init brown
 	keyword whole main brown
