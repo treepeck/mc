@@ -43,6 +43,7 @@ context default
 	keyword whole uintptr brightgreen
 	keyword whole string brightgreen
 	keyword whole bool brightgreen
+	keyword whole error brightgreen
 	keyword whole iota brightgreen
 # builtin functions
 	keyword whole nil brightgreen
