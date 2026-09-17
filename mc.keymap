@@ -383,9 +383,9 @@ SpellCheckCurrentWord = ctrl-p
 # WindowMove =
 # WindowResize =
 WindowFullscreen = ctrl-w
-# WindowList =
-WindowNext = ctrl-pgdn
-WindowPrev = ctrl-pgup
+WindowList = ctrl-tab
+# WindowNext = ctrl-]
+# WindowPrev = ctrl-[
 # ExtendedKeyMap =
 
 [viewer]
