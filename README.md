@@ -14,6 +14,10 @@ Content of the `macros` folder goes to `~/.local/share/mc/mcedit/macros.d`
 
 Content of the `syntax` folder goes to `/usr/share/mc/syntax`
 
+# Skins
+
+Content of the `skins` folder goes to `/usr/share/mc/skins`
+
 # Setup
 
 `ini` and `panels.ini` are going to `~/.config/mc`
